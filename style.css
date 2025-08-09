@@ -160,3 +160,11 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/*Adaptacion para resolucion mobil*/
+@media (max-width: 1200px){
+    .header-banner{
+        display: flex;
+        flex-direction: column;
+    }
+}
